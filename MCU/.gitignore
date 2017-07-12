@@ -1,0 +1,99 @@
+# Directories
+Build/*
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.ihx
+
+# Uncategorized output
+*.asm
+*.cdb
+*.lk 
+*.lst
+*.map
+*.rel
+*.rst 
+*.sym
+*.patch
+sdcc.create.patch.sh
+
+# Debug files
+*.dSYM/
+
+# Ignore Eclipse
+*.cproject
+*.project
+
+# QT C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+
+TempPlot/object_script.*.Release
+TempPlot/object_script.*.Debug
+TempPlot/*_plugin_import.cpp
+TempPlot//.qmake.cache
+TempPlot//.qmake.stash
+TempPlot/*.pro.user
+TempPlot/*.pro.user.*
+TempPlot/*.qbs.user
+TempPlot/*.qbs.user.*
+TempPlot/*.moc
+TempPlot/moc_*.cpp
+TempPlot/moc_*.h
+TempPlot/qrc_*.cpp
+TempPlot/ui_*.h
+TempPlot/Makefile*
+TempPlot/*build-*
+
+
+# Qt unit tests
+TempPlot/target_wrapper.*
+
+
+# QtCreator
+
+TempPlot/*.autosave
+
+# QtCtreator Qml
+TempPlot/*.qmlproject.user
+TempPlot/*.qmlproject.user.*
+
+# QtCtreator CMake
+CMakeLists.txt.user*
